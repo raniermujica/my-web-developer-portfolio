@@ -9,7 +9,7 @@ import {
 
 const NavBar = () => {
 
-  const [activeLink, setActiveLink] = useState('home');
+  const [clickedLink, setclickedLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -26,8 +26,8 @@ const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [])
 
-  const onUpdateActiveLink = (value) => {
-    setActiveLink(value);
+  const onUpdateclickedLink = (value) => {
+    setclickedLink(value);
   }
 
   return (
@@ -39,12 +39,12 @@ const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Inicio</Nav.Link>
-              <Nav.Link href="#about" className={activeLink === 'about me' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about me')}>Sobre mí</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Habilidades</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Proyectos</Nav.Link>
+              <Nav.Link href="#home" className={clickedLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateclickedLink('home')}>Inicio</Nav.Link>
+              <Nav.Link href="#about" className={clickedLink === 'about me' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateclickedLink('about me')}>Sobre mí</Nav.Link>
+              <Nav.Link href="#skills" className={clickedLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateclickedLink('skills')}>Habilidades</Nav.Link>
+              <Nav.Link href="#projects" className={clickedLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateclickedLink('projects')}>Proyectos</Nav.Link>
             </Nav>
-            <span className="navbar-text">
+            <span className="navbar-contact">
               <div className="social-icon">
                 <a href="https://github.com/raniermujica"><img src={gitLogo} alt="" /></a>
                 <a href="https://www.linkedin.com/in/ranier-enrique-mujica/"><img src={linkdin} alt="" /></a>

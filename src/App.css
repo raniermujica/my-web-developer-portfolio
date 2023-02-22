@@ -96,7 +96,7 @@ nav.navbar.scrolled {
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
 font-weight: 400;
-color: #fff !important;
+color: #fff;
 letter-spacing: 0.8px;
 padding: 0 25px;
 font-size: 18px;
@@ -105,8 +105,9 @@ opacity: 0.75;
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
+  color: #B4AB36;
 }
-span.navbar-text {
+span.navbar-contact {
   display: flex;
   align-items: center;
 }
@@ -131,7 +132,7 @@ span.navbar-text {
   width: 42px;
   height: 42px;
   position: absolute;
-  background-color: #ffffff;
+  background-color: #B4AB36;
   border-radius: 50%;
   transform: scale(0);
 transition: 0.3s ease-in-out;
@@ -147,7 +148,7 @@ transition: 0.3s ease-in-out;
 .social-icon a:hover img {
 filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
-.navbar-text button {
+.navbar-contact button {
 font-weight: 700;
 color: #fff;
 border: 1px solid #fff;
@@ -158,24 +159,24 @@ position: relative;
 background-color: transparent;
 transition: 0.3s ease-in-out;
 }
-.navbar-text button span {
+.navbar-contact button span {
 z-index: 1;
 }
-.navbar-text button::before {
+.navbar-contact button::before {
 content: "";
 width: 0%;
 height: 100%;
 position: absolute;
-background-color: #fff;
+background-color: #B4AB36;
 left: 0;
 top: 0;
 z-index: -1;
 transition: 0.3s ease-in-out;
 }
-.navbar-text button:hover {
+.navbar-contact button:hover {
 color: #121212;
 }
-.navbar-text button:hover::before {
+.navbar-contact button:hover::before {
 content: "";
 width: 100%;
 height: 100%;
@@ -204,7 +205,7 @@ width: 24px;
 position: absolute;
 display: none;
 height: 2px;
-background-color: #fff;
+background-color: #B4AB36;
 top: 0;
 left: 0;
 content: '';
