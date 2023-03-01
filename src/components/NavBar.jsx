@@ -2,12 +2,13 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink } from 'react-router-hash-link';
 import  gitLogo  from '../assets/images/git.png'
+import behance from '../assets/images/behance-icon.png'
 import linkdin from '../assets/images/linkedin.png'
 import {
     BrowserRouter as Router
   } from "react-router-dom";
 
-const NavBar = () => {
+function NavBar() {
 
   const [clickedLink, setclickedLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
@@ -48,6 +49,7 @@ const NavBar = () => {
               <div className="social-icon">
                 <a href="https://github.com/raniermujica"><img src={gitLogo} alt="" /></a>
                 <a href="https://www.linkedin.com/in/ranier-enrique-mujica/"><img src={linkdin} alt="" /></a>
+                <a href="https://www.behance.net/ranierenrique"><img src={behance} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Hablemos</span></button>
