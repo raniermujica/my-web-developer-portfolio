@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import aboutPicture from "../assets/images/about-me.png";
 import "../styles/about.css";
@@ -12,7 +12,7 @@ function About() {
             <img src={aboutPicture} alt="portrait" />
           </div>
           <div className="about-right-col" xs={12} md={6} xl={7}>
-            <h2>Esta es mi historia.</h2>
+            <h2>Me llamo Ranier y esta es mi historia.</h2>
             <p align="justify">
               &nbsp;&nbsp;&nbsp;&nbsp;
               ¿Siempre supe que quería desarrollarme en esta área? La respuesta
@@ -40,8 +40,8 @@ function About() {
               puedo crear entornos relacionados con el comercio electrónico y
               enfrentarme a nuevos retos en distintos sectores.
             </p>
-            <button onClick={() => console.log("visual portfolio")}>
-              Descubre mi portfolio artístico
+            <button>
+              <a href="https://www.behance.net/ranierenrique" target="_blank">Descubre mi portfolio artístico</a>
               <ArrowRightCircle size={30} />
             </button>
           </div>

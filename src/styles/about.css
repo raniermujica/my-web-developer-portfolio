@@ -57,3 +57,7 @@
   margin-left: 25px;
 }
 
+.about-information a {
+  text-decoration: none;
+  color: white;
+}

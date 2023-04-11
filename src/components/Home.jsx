@@ -53,11 +53,11 @@ function Home() {
         <Container className="central-box">
             <Row className="central-row">
                 <Col className="col-one" xs={12} md={6} xl={7}>
-                    <span className="tagline">Bienvenidos a mi Portfolio</span>
+                    <span className="tagline">Bienvenidos, me llamo Ranier Mujica</span>
                     <h1>{`¡Hola! soy `}<span className="wrap">{text}</span></h1>
                     <p>Desarrollo aplicaciones web Full Stack y me apasiona el mundo del Frontend.</p>
                     <p>Me especializo en tecnologías como JavaScript, React, HTML5 y CSS.</p>
-                    <button onClick={() => console.log("Conect")}>¡Hablemos!<ArrowRightCircle size={25} /></button>
+                    {/* <button onClick={() => console.log("Conect")}>¡Hablemos!<ArrowRightCircle size={25} /></button> */}
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                     <img src={homeImg} alt="header-img"/>

@@ -47,9 +47,9 @@ function NavBar() {
             </Nav>
             <span className="navbar-contact">
               <div className="social-icon">
-                <a href="https://github.com/raniermujica"><img src={gitLogo} alt="" /></a>
-                <a href="https://www.linkedin.com/in/ranier-enrique-mujica/"><img src={linkdin} alt="" /></a>
-                <a href="https://www.behance.net/ranierenrique"><img src={behance} alt="" /></a>
+                <a href="https://github.com/raniermujica" target="_blank"><img src={gitLogo} alt="" /></a>
+                <a href="https://www.linkedin.com/in/ranier-enrique-mujica/" target="_blank"><img src={linkdin} alt="" /></a>
+                <a href="https://www.behance.net/ranierenrique" target="_blank"><img src={behance} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Hablemos</span></button>
