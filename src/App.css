@@ -67,6 +67,7 @@ p.danger {
 }
 
 /* NavBar */
+
 .container {
 margin-top: 0;
 }
@@ -227,5 +228,11 @@ height: 2px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 border-color: transparent;
+}
+#basic-navbar-nav {
+  height: 10vh;
+}
+.navbar-contact {
+  margin-bottom: 1%;
 }
 
