@@ -5,7 +5,7 @@ import "../styles/about.css";
 
 function About() {
   return (
-    <section className="about-information">
+    <section className="about-information" id="about-information">
       <Container className="about-container">
         <Row className="about-row">
           <div className="about-left-col" xs={12} md={6} xl={5}>

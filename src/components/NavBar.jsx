@@ -41,9 +41,9 @@ function NavBar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={clickedLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateclickedLink('home')}>Inicio</Nav.Link>
-              <Nav.Link href="#about" className={clickedLink === 'about me' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateclickedLink('about me')}>Sobre mí</Nav.Link>
-              <Nav.Link href="#skills" className={clickedLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateclickedLink('skills')}>Habilidades</Nav.Link>
-              <Nav.Link href="#projects" className={clickedLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateclickedLink('projects')}>Proyectos</Nav.Link>
+              <Nav.Link href="#about-information" className={clickedLink === 'about me' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateclickedLink('about me')}>Sobre mí</Nav.Link>
+              <Nav.Link href="#skills-section" className={clickedLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateclickedLink('skills')}>Habilidades</Nav.Link>
+              <Nav.Link href="#project-section" className={clickedLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateclickedLink('projects')}>Proyectos</Nav.Link>
             </Nav>
             <span className="navbar-contact">
               <div className="social-icon">
@@ -51,7 +51,7 @@ function NavBar() {
                 <a href="https://www.linkedin.com/in/ranier-enrique-mujica/" target="_blank"><img src={linkdin} alt="" /></a>
                 <a href="https://www.behance.net/ranierenrique" target="_blank"><img src={behance} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
+              <HashLink to='#contact'>
                 <button className="vvd"><span>Hablemos</span></button>
               </HashLink>
             </span>

@@ -50,10 +50,10 @@ if (result.code == 200) {
 return (
     <section className="contact" id="contact">
         <Container className="contact-form">
-        <Row className="align-items-center">
+        <div className="form-space">
                 <h2>¿Hablamos?</h2>
                 <form onSubmit={handleSubmit} className="form-style">
-                  <Row>
+                  <Col>
                     <Col size={12} sm={6} className="holders" id="holder-name">
                       <input type="text" value={data.firstName} placeholder="Nombre:" onChange={(e) => formUpdate('firstName', e.target.value)} />
                     </Col>
@@ -81,13 +81,12 @@ return (
                         <p className={status.success === false ? "Mensaje no enviado" : "Mensaje enviado"}>{status.message}</p>
                       </Col>
                     }
-                  </Row>
-                  <div>
+                  </Col>
+                  <Col>
                     <img src={mailIcon} alt="sending-mail"></img>
-                </div>
-                </form>
-                
-        </Row>
+                </Col>
+                </form>        
+        </div>
       </Container>
     </section>
 )
