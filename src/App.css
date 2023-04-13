@@ -169,6 +169,7 @@ width: 0%;
 height: 100%;
 position: absolute;
 background-color: #B4AB36;
+border-radius: 5px;
 left: 0;
 top: 0;
 z-index: -1;

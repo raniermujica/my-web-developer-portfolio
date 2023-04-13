@@ -1,0 +1,120 @@
+.contact-form {
+    background: linear-gradient(90.21deg, #2aa7ff -5.91%, #B4AB36 111.58%);
+    padding: 80px;
+    margin-left: 15%;
+    margin-right:15%;
+    margin-top: 3%;
+    margin-bottom: 15%;
+    border-radius: 60px;
+    height: 80vh;
+  }
+  .form-style {
+    height: 80vh;
+    margin-top: 1%;
+    /* display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+  }
+  .align-items-center {
+    margin-bottom: 3%;
+  }
+  .holders {
+    height: 2%;
+  }
+  .contact-form h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 3%;
+    margin-top: -4%;
+    padding: 0px 8px 0px;
+    color: black;
+    margin-left: 0%;
+  }
+  .contact-form p {
+    margin-top: -1%;
+    margin-left: 2%;
+    color: darkred;
+  }
+  .contact-form form input, .contact-form form textarea {
+    width: 80%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color: black;
+    margin: 0 0 6px 0;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    transition: 0.3s ease-in-out;
+  }
+  #holder-name {
+    width: 30%;
+  }
+  #holder-lastName {
+    width: 30%;
+  }
+  #holder-company, #holder-email {
+    width: 50%;
+  }
+  #holder-phone {
+    width: 30%;
+  }
+  #holder-message {
+    width: 70%;
+  }
+  .contact-form img {
+    width: 55%;
+    position: relative;
+    margin-left: 50%;
+    margin-top: -60%;
+    margin-bottom: 75%;
+  }
+  .contact-form form input:focus, .contact-form form textarea:focus {
+    background: rgba(255, 255, 255, 1);
+    color: #121212;
+  }
+  .contact-form form input::placeholder, .contact-form form textarea::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color:black;
+  }
+  .contact-form form input:focus::placeholder, .contact-form form textarea:focus::placeholder {
+    color: #121212;
+    opacity: 0.8;
+  }
+  .contact-form form button {
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    padding: 14px 48px;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 2%;
+    border-radius: 5px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+  }
+  .contact-form form button span {
+    z-index: 1;
+    position: relative;
+  }
+  .contact form button:hover {
+    color: #fff;
+  }
+  .contact-form form button::before {
+    content: "";
+    background: #001a1e;
+    width: 0;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .contact-form form button:hover::before {
+    width: 100%;
+  }
