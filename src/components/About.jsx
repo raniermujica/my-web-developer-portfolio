@@ -8,10 +8,10 @@ function About() {
     <section className="about-information" id="about-information">
       <Container className="about-container">
         <Row className="about-row">
-          <div className="about-left-col" xs={12} md={6} xl={5}>
+          <div className="about-left-col">
             <img src={aboutPicture} alt="portrait" />
           </div>
-          <div className="about-right-col" xs={12} md={6} xl={7}>
+          <div className="about-right-col">
             <h2>Me llamo Ranier y esta es mi historia.</h2>
             <p align="justify">
               &nbsp;&nbsp;&nbsp;&nbsp;

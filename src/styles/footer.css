@@ -12,14 +12,26 @@
   font-size: 14px;
   color: #b8b8b8;
   letter-spacing: 0.5px;
+  margin-left: 1%;
 }
 .icon-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 5%;
-    margin-right: 2%;
+    width: 8%;
+    margin-right: 1%;
 }
-.icon-section a {
-    
+.icon-social-png {
+    padding: 5px;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 740px) {
+  .copyright-section {
+    display: none;
+  }
+  .icon-section {
+    width: 40%;
+  }
 }

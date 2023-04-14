@@ -122,3 +122,79 @@
 .contact-form form button:hover::before {
   width: 100%;
 }
+
+/* Mobile Responsive  */
+
+@media (max-width: 740px) {
+  .form-space {
+    height: 70vh;
+    width: 40vw;
+  }
+  .form-space h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8%;
+    margin-top: -25%;
+    color: black;
+    margin-left: -20%;
+  }
+  .contact-form form input,
+  .contact-form form textarea {
+    width: 200%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    transition: 0.3s ease-in-out;
+  }
+  #holder-name {
+    width: 50%;
+  }
+  #holder-lastName {
+    width: 50%;
+  }
+  #holder-company,
+  #holder-email {
+    width: 70%;
+  }
+  #holder-phone {
+    width: 50%;
+  }
+  #holder-message {
+    width: 70%;
+  }
+  .contact-form img {
+    display: none;
+  }
+  .form-style {
+    margin-left: -15%;
+  }
+  .contact-form {
+    background: linear-gradient(90.21deg, #2aa7ff -5.91%, #b4ab36 111.58%);
+    padding: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    border-radius: 60px;
+    height: 75vh;
+  }
+  .contact-form form {
+    margin-right: 35%;
+    margin-left: -35%;
+  }
+  .contact-form form button {
+   margin-left: 25%;
+   margin-top: 15%;
+   font-size: 12px;
+  }
+  .contact-form p {
+    margin-top: -12%;
+    margin-left: 20%;
+    color: darkred;
+    font-size: 15px;
+  }
+}

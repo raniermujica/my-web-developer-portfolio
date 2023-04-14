@@ -11,9 +11,9 @@ function Footer () {
               <p>Copyright 2023. All Rights Reserved</p>
             </section>
             <section className="icon-section">
-                  <a href="https://www.linkedin.com/in/ranier-enrique-mujica/" target="_blank" ><img src={linkedin} alt="social"className="icon-social-png"/></a>
-                  <a href="https://github.com/raniermujica" target="_blank" ><img src={github} alt="social" className="icon-social-png"/></a>
-                  <a href="https://www.behance.net/ranierenrique" target="_blank" ><img src={behance} alt="social" className="icon-social-png"/></a>
+                  <a href="https://www.linkedin.com/in/ranier-enrique-mujica/" target="_blank" className="icon-social-png"><img src={linkedin} alt="social"/></a>
+                  <a href="https://github.com/raniermujica" target="_blank" className="icon-social-png"><img src={github} alt="social" /></a>
+                  <a href="https://www.behance.net/ranierenrique" target="_blank" className="icon-social-png"><img src={behance} alt="social" /></a>
             </section>
         </footer>
       )

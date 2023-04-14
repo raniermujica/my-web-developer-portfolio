@@ -77,4 +77,35 @@
     opacity: 1;
   }
 
+  /* Mobile responsive  */
+
+  @media (max-width: 740px) {
+    .card-information {
+      position: relative;
+      border-radius: 30px;
+      overflow: hidden;
+      margin-bottom: 5%;
+      height: 15vh;
+      width: 30vw;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .card-text span {
+      display: none;
+    }
+    .card-text h4 {
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      line-height: 1.1em;
+      margin-top: 10vh;
+    }
+    .project-map {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-top: 15%;
+    }
+  }
   

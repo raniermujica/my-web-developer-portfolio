@@ -28,3 +28,14 @@
     margin: 0 auto 15px auto;
   }
  
+  /* Mobile Responsive */
+
+@media (max-width: 740px) {
+  .skill-chart {
+    background: #000d10;
+    border-radius: 64px;
+    text-align: center;
+    width: 100%;
+    margin-right: 2%;
+  }
+}

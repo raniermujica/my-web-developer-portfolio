@@ -55,10 +55,10 @@ function Home() {
     <section className="home" id="home">
       <Container className="central-box">
         <Row className="central-row">
-          <Col className="col-one" xs={12} md={6} xl={7}>
-            <span className="tagline">Bienvenidos, me llamo Ranier Mujica</span>
+          <Col className="col-one" sm={12} md={6} xl={7}>
+            <span className="tagline">¡Hola! me llamo Ranier Mujica</span>
             <h1>
-              {`¡Hola! soy `}
+              {`Soy `}
               <span className="wrap">{text}</span>
             </h1>
             <p>
@@ -70,7 +70,7 @@ function Home() {
             </p>
             {/* <button onClick={() => console.log("Conect")}>¡Hablemos!<ArrowRightCircle size={25} /></button> */}
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col className="col-two" sm={12} md={6} xl={5}>
             <img src={homeImg} alt="header-img" />
           </Col>
         </Row>

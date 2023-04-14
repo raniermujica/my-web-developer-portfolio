@@ -32,6 +32,7 @@ function NavBar() {
   }
 
   return (
+    <section className="navBar-section" id="navBar-section">
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
@@ -59,6 +60,7 @@ function NavBar() {
         </Container>
       </Navbar>
     </Router>
+    </section>
   )
 }
 
