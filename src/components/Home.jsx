@@ -66,7 +66,7 @@ function Home() {
               Frontend.
             </p>
             <p>
-              Me especializo en tecnologías como JavaScript, React, HTML5 y CSS.
+              Me especializo en tecnologías como JavaScript, React, Node, NestJs, HTML5 y CSS.
             </p>
             {/* <button onClick={() => console.log("Conect")}>¡Hablemos!<ArrowRightCircle size={25} /></button> */}
           </Col>
